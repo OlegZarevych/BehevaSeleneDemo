@@ -23,3 +23,5 @@ Feature: Title of your feature
   @tag1
   Scenario: Title of your scenario
     Given Open duckduck page
+    When Search text Python
+    Then first link contains Python
